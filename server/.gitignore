@@ -1,0 +1,83 @@
+# ---------------------------------
+# Node.js / React Frontend
+# ---------------------------------
+node_modules/
+build/
+dist/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React Native (if any)
+ios/
+android/
+*.xcworkspace
+*.xcodeproj
+*.idea/
+
+# ---------------------------------
+# Python / Flask Backend
+# ---------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+instance/
+.env
+.env.*
+*.sqlite3
+*.db
+
+# Flask Specific
+.mypy_cache/
+.pytest_cache/
+*.log
+.vscode/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# ---------------------------------
+# System / IDE Files
+# ---------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+*.idea/
+*.vscode/
+
+# ---------------------------------
+# Coverage / Testing
+# ---------------------------------
+coverage/
+htmlcov/
+.tox/
+.nox/
+.cache/
+.coverage
+*.cover
+.pytest_cache/
+
+# ---------------------------------
+# Deployment / Production
+# ---------------------------------
+*.tar.gz
+*.zip
+*.egg
+*.whl
+
+# Ignore media or uploaded files (if any)
+media/
+uploads/
+static/react/media/
